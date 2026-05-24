@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5c0eaec6cc7ea40ab2a2c0b2b8da6f, type: 3}
+  m_Name: BananaSO
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  sprite: {fileID: 0}
+  prefab: {fileID: 1039308137324669084, guid: 462f6f670e63bea43ba95c28e646e836, type: 3}
+  sliceable: 0
+  dropable: 1
+  showIcon: 0
+  plateVisualPrefab: {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5c0eaec6cc7ea40ab2a2c0b2b8da6f, type: 3}
+  m_Name: CucumberSliced
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  sprite: {fileID: 21300000, guid: 7fe77f22e53fc3246af0d05745a913dc, type: 3}
+  prefab: {fileID: 8214358713315128825, guid: dbf5cbb871e8c3c45ba81d29a9346238, type: 3}
+  sliceable: 0
+  dropable: 1
+  showIcon: 1
+  plateVisualPrefab: {fileID: 919132149155446097, guid: 617773c9ef5eb3d4e9732b43d876dcfd, type: 3}

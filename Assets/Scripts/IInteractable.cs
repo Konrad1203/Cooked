@@ -2,9 +2,13 @@ using UnityEngine;
 
 public interface IInteractable
 {
+    GameObject GetGameObject();
+    
     // Space: grab / drop action
-    void OnQuickAction(PlayerInteraction player, GameObject heldItem);
+    void OnQuickAction(Transform playerHoldPoint, Item heldItem, out Item playerNewItem);
 
     // E: work / cut action
-    // void OnWorkAction(PlayerInteraction player, GameObject heldItem);
+    bool IsWorkActionPossible();
+    void OnWorkActionStart(PlayerInteraction player, Item heldItem);
+    void OnWorkActionCancel(PlayerInteraction player, Item heldItem);
 }
